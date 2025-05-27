@@ -1,0 +1,31 @@
+[01m[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:[m[K In constructor ‘[01m[KPositionSubscriber::PositionSubscriber()[m[K’:
+[01m[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:12:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [12])[m[K’
+   12 |       [01;31m[Kmove_group_interface("manipulator")[m[K  // Assume the group name is "manipulator"
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:[m[K In member function ‘[01m[Kvoid PositionSubscriber::position_callback(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:47:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   47 | plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                               [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/position_subscriber.dir/build.make:76: CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/position_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

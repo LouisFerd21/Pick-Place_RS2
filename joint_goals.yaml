@@ -1,0 +1,108 @@
+original_pose:
+  shoulder_lift_joint: -1.8501
+  elbow_joint: -1.2195
+  wrist_1_joint: -1.5818
+  wrist_2_joint: -4.6681
+  wrist_3_joint: 1.4268
+  shoulder_pan_joint: -1.6306
+  
+ #points for color
+waypoint_red:
+  shoulder_lift_joint: -1.4435
+  elbow_joint: -2.0209
+  wrist_1_joint: -1.2858
+  wrist_2_joint: -4.6845
+  wrist_3_joint: 1.4265
+  shoulder_pan_joint: 0.1028
+  
+waypoint_blue:
+  shoulder_lift_joint: -1.4544
+  elbow_joint: -2.0233
+  wrist_1_joint: -1.2685
+  wrist_2_joint: -4.6849
+  wrist_3_joint: 1.4265
+  shoulder_pan_joint: 0.4503
+  
+blue:
+  shoulder_lift_joint: -1.6743
+  elbow_joint: -2.3411
+  wrist_1_joint: -0.7065
+  wrist_2_joint: -4.6894
+  wrist_3_joint: 1.4265
+  shoulder_pan_joint: 0.4510
+  
+red:
+  shoulder_lift_joint: -1.7128
+  elbow_joint: -2.3431
+  wrist_1_joint: -0.6636
+  wrist_2_joint: -4.7505
+  wrist_3_joint: 1.4264
+  shoulder_pan_joint: 0.1678
+  
+exit_red:
+  shoulder_lift_joint: -1.4435
+  elbow_joint: -2.0209
+  wrist_1_joint: -1.2858
+  wrist_2_joint: -4.6845
+  wrist_3_joint: 1.4265
+  shoulder_pan_joint: 0.1028
+  
+exit_blue:
+  shoulder_lift_joint: -1.4544
+  elbow_joint: -2.0233
+  wrist_1_joint: -1.2685
+  wrist_2_joint: -4.6849
+  wrist_3_joint: 1.4265
+  shoulder_pan_joint: 0.4503
+
+# points for canvas
+# (A,B)
+waypoint_1:
+  shoulder_lift_joint: -2.1929
+  elbow_joint: -0.8825
+  wrist_1_joint: -1.5872
+  wrist_2_joint: -4.6686
+  wrist_3_joint: 1.4268
+  shoulder_pan_joint: -0.9825
+
+# (C,D)
+waypoint_2:
+  shoulder_lift_joint: -2.2696
+  elbow_joint: -1.0022
+  wrist_1_joint: -1.3498
+  wrist_2_joint: -4.6592
+  wrist_3_joint: 1.4268
+  shoulder_pan_joint: -1.3401
+
+# (E,F)
+waypoint_3:
+  shoulder_lift_joint: -2.2698
+  elbow_joint: -1.0021
+  wrist_1_joint: -1.3498
+  wrist_2_joint: -4.6591
+  wrist_3_joint: 1.4268
+  shoulder_pan_joint: -1.6718
+
+A1:
+  shoulder_lift_joint: -2.9230
+  elbow_joint: -0.4769
+  wrist_1_joint: -1.2894
+  wrist_2_joint: -4.6641
+  wrist_3_joint: 1.4278
+  shoulder_pan_joint: -1.1087
+
+C1:
+  shoulder_lift_joint: -2.9126
+  elbow_joint: -0.4580
+  wrist_1_joint: -1.2753
+  wrist_2_joint: -4.6591
+  wrist_3_joint: 1.4267
+  shoulder_pan_joint: -1.3868
+
+E1:
+  shoulder_lift_joint: -2.9127
+  elbow_joint: -0.4579
+  wrist_1_joint: -1.2754
+  wrist_2_joint: -4.6591
+  wrist_3_joint: 1.4268
+  shoulder_pan_joint: -1.6705

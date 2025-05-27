@@ -1,0 +1,16 @@
+/home/louis/Pick-Place_RS2/install/pick_place/lib/pick_place/pick_task
+/home/louis/Pick-Place_RS2/install/pick_place/share/ament_index/resource_index/package_run_dependencies/pick_place
+/home/louis/Pick-Place_RS2/install/pick_place/share/ament_index/resource_index/parent_prefix_path/pick_place
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/environment/ament_prefix_path.sh
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/environment/ament_prefix_path.dsv
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/environment/path.sh
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/environment/path.dsv
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/local_setup.bash
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/local_setup.sh
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/local_setup.zsh
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/local_setup.dsv
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/package.dsv
+/home/louis/Pick-Place_RS2/install/pick_place/share/ament_index/resource_index/packages/pick_place
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/cmake/pick_placeConfig.cmake
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/cmake/pick_placeConfig-version.cmake
+/home/louis/Pick-Place_RS2/install/pick_place/share/pick_place/package.xml

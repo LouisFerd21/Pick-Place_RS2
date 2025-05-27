@@ -1,0 +1,4 @@
+Invoking command in '/home/louis/Pick-Place_RS2/build/pick_place': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louis/Pick-Place_RS2/build/pick_place -- -j12 -l12
+Invoked command in '/home/louis/Pick-Place_RS2/build/pick_place' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louis/Pick-Place_RS2/build/pick_place -- -j12 -l12
+Invoking command in '/home/louis/Pick-Place_RS2/build/pick_place': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louis/Pick-Place_RS2/build/pick_place
+Invoked command in '/home/louis/Pick-Place_RS2/build/pick_place' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louis/Pick-Place_RS2/build/pick_place

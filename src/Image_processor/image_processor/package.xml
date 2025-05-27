@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>image_processor</name>
+  <version>0.0.0</version>
+  <description>Image processor GUI with ROS2</description>
+  <maintainer email="easha.mohammedghouseuddin@student.uts.edu.au">easha</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <!-- add other dependencies as needed -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

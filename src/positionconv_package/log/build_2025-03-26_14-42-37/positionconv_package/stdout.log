@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target position_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable position_subscriber[0m
+[100%] Built target position_subscriber
+-- Install configuration: ""
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/lib/positionconv_package/position_subscriber
+-- Set runtime path of "/home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/lib/positionconv_package/position_subscriber" to ""
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/ament_index/resource_index/package_run_dependencies/positionconv_package
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/ament_index/resource_index/parent_prefix_path/positionconv_package
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/ament_prefix_path.sh
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/path.sh
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/path.dsv
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.bash
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.sh
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.zsh
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.dsv
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/package.dsv
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/ament_index/resource_index/packages/positionconv_package
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/cmake/positionconv_packageConfig.cmake
+-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/cmake/positionconv_packageConfig-version.cmake
+-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/package.xml

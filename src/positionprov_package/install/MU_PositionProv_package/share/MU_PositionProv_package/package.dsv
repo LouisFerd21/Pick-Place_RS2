@@ -1,0 +1,8 @@
+source;share/MU_PositionProv_package/hook/cmake_prefix_path.ps1
+source;share/MU_PositionProv_package/hook/cmake_prefix_path.dsv
+source;share/MU_PositionProv_package/hook/cmake_prefix_path.sh
+source;share/MU_PositionProv_package/local_setup.bash
+source;share/MU_PositionProv_package/local_setup.dsv
+source;share/MU_PositionProv_package/local_setup.ps1
+source;share/MU_PositionProv_package/local_setup.sh
+source;share/MU_PositionProv_package/local_setup.zsh

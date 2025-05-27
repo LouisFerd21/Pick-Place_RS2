@@ -1,0 +1,2 @@
+[0.283s] Invoking command in '/home/louis/Pick-Place_RS2/build/positionconv_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louis/Pick-Place_RS2/build/positionconv_package -- -j12 -l12
+[0.340s] [100%] Built target position_subscriber

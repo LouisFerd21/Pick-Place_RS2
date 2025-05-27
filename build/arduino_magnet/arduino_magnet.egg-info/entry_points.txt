@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_magnet_node = arduino_magnet.arduino_magnet_node:main
+

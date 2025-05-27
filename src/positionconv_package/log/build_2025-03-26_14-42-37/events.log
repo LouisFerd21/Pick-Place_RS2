@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (positionconv_package) JobQueued: {'identifier': 'positionconv_package', 'dependencies': OrderedDict()}
+[0.000522] (positionconv_package) JobStarted: {'identifier': 'positionconv_package'}
+[0.006702] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'cmake'}
+[0.008000] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'build'}
+[0.008551] (positionconv_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package', '--', '-j12', '-l12'], 'cwd': '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'louis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1640'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/louis/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-Prestige-15-A10SC:@/tmp/.ICE-unix/1608,unix/louis-Prestige-15-A10SC:/tmp/.ICE-unix/1608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03a8427b_a650_4c70_903e_3fc70bdafee8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KFEA42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.663'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042982] (positionconv_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target position_subscriber\x1b[0m\n'}
+[0.063932] (positionconv_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o\x1b[0m\n'}
+[0.099867] (-) TimerEvent: {}
+[0.200159] (-) TimerEvent: {}
+[0.300469] (-) TimerEvent: {}
+[0.400806] (-) TimerEvent: {}
+[0.501121] (-) TimerEvent: {}
+[0.601466] (-) TimerEvent: {}
+[0.701827] (-) TimerEvent: {}
+[0.802187] (-) TimerEvent: {}
+[0.902591] (-) TimerEvent: {}
+[1.002944] (-) TimerEvent: {}
+[1.103342] (-) TimerEvent: {}
+[1.203739] (-) TimerEvent: {}
+[1.304127] (-) TimerEvent: {}
+[1.404489] (-) TimerEvent: {}
+[1.504837] (-) TimerEvent: {}
+[1.605173] (-) TimerEvent: {}
+[1.705555] (-) TimerEvent: {}
+[1.805911] (-) TimerEvent: {}
+[1.906273] (-) TimerEvent: {}
+[2.006612] (-) TimerEvent: {}
+[2.106983] (-) TimerEvent: {}
+[2.207350] (-) TimerEvent: {}
+[2.307702] (-) TimerEvent: {}
+[2.408056] (-) TimerEvent: {}
+[2.508392] (-) TimerEvent: {}
+[2.608692] (-) TimerEvent: {}
+[2.709017] (-) TimerEvent: {}
+[2.809440] (-) TimerEvent: {}
+[2.909821] (-) TimerEvent: {}
+[3.010173] (-) TimerEvent: {}
+[3.110515] (-) TimerEvent: {}
+[3.210918] (-) TimerEvent: {}
+[3.311256] (-) TimerEvent: {}
+[3.411624] (-) TimerEvent: {}
+[3.512023] (-) TimerEvent: {}
+[3.612378] (-) TimerEvent: {}
+[3.712729] (-) TimerEvent: {}
+[3.813147] (-) TimerEvent: {}
+[3.913512] (-) TimerEvent: {}
+[4.013878] (-) TimerEvent: {}
+[4.114260] (-) TimerEvent: {}
+[4.214594] (-) TimerEvent: {}
+[4.314914] (-) TimerEvent: {}
+[4.415254] (-) TimerEvent: {}
+[4.515601] (-) TimerEvent: {}
+[4.615947] (-) TimerEvent: {}
+[4.716380] (-) TimerEvent: {}
+[4.816740] (-) TimerEvent: {}
+[4.917071] (-) TimerEvent: {}
+[5.017424] (-) TimerEvent: {}
+[5.117722] (-) TimerEvent: {}
+[5.218029] (-) TimerEvent: {}
+[5.318313] (-) TimerEvent: {}
+[5.418653] (-) TimerEvent: {}
+[5.519015] (-) TimerEvent: {}
+[5.619444] (-) TimerEvent: {}
+[5.719847] (-) TimerEvent: {}
+[5.820205] (-) TimerEvent: {}
+[5.920564] (-) TimerEvent: {}
+[6.020881] (-) TimerEvent: {}
+[6.121212] (-) TimerEvent: {}
+[6.221559] (-) TimerEvent: {}
+[6.321870] (-) TimerEvent: {}
+[6.422215] (-) TimerEvent: {}
+[6.522588] (-) TimerEvent: {}
+[6.622940] (-) TimerEvent: {}
+[6.723319] (-) TimerEvent: {}
+[6.823691] (-) TimerEvent: {}
+[6.924074] (-) TimerEvent: {}
+[7.024420] (-) TimerEvent: {}
+[7.124689] (-) TimerEvent: {}
+[7.225020] (-) TimerEvent: {}
+[7.325392] (-) TimerEvent: {}
+[7.425773] (-) TimerEvent: {}
+[7.526162] (-) TimerEvent: {}
+[7.626511] (-) TimerEvent: {}
+[7.726890] (-) TimerEvent: {}
+[7.827248] (-) TimerEvent: {}
+[7.927583] (-) TimerEvent: {}
+[8.027885] (-) TimerEvent: {}
+[8.128252] (-) TimerEvent: {}
+[8.228600] (-) TimerEvent: {}
+[8.328905] (-) TimerEvent: {}
+[8.429296] (-) TimerEvent: {}
+[8.529571] (-) TimerEvent: {}
+[8.629903] (-) TimerEvent: {}
+[8.730290] (-) TimerEvent: {}
+[8.830618] (-) TimerEvent: {}
+[8.930950] (-) TimerEvent: {}
+[9.031251] (-) TimerEvent: {}
+[9.131560] (-) TimerEvent: {}
+[9.231867] (-) TimerEvent: {}
+[9.332253] (-) TimerEvent: {}
+[9.432672] (-) TimerEvent: {}
+[9.533004] (-) TimerEvent: {}
+[9.550601] (positionconv_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_subscriber\x1b[0m\n'}
+[9.633151] (-) TimerEvent: {}
+[9.733403] (-) TimerEvent: {}
+[9.833721] (-) TimerEvent: {}
+[9.934006] (-) TimerEvent: {}
+[10.034262] (-) TimerEvent: {}
+[10.088401] (positionconv_package) StdoutLine: {'line': b'[100%] Built target position_subscriber\n'}
+[10.099693] (positionconv_package) CommandEnded: {'returncode': 0}
+[10.100354] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'install'}
+[10.107683] (positionconv_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package'], 'cwd': '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'louis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1640'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/louis/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-Prestige-15-A10SC:@/tmp/.ICE-unix/1608,unix/louis-Prestige-15-A10SC:/tmp/.ICE-unix/1608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03a8427b_a650_4c70_903e_3fc70bdafee8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KFEA42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.663'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.113745] (positionconv_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.113877] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/lib/positionconv_package/position_subscriber\n'}
+[10.117206] (positionconv_package) StdoutLine: {'line': b'-- Set runtime path of "/home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/lib/positionconv_package/position_subscriber" to ""\n'}
+[10.117340] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/ament_index/resource_index/package_run_dependencies/positionconv_package\n'}
+[10.117455] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/ament_index/resource_index/parent_prefix_path/positionconv_package\n'}
+[10.117540] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/ament_prefix_path.sh\n'}
+[10.117599] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/ament_prefix_path.dsv\n'}
+[10.117676] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/path.sh\n'}
+[10.117732] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/environment/path.dsv\n'}
+[10.117811] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.bash\n'}
+[10.117864] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.sh\n'}
+[10.117924] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.zsh\n'}
+[10.117976] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/local_setup.dsv\n'}
+[10.118049] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/package.dsv\n'}
+[10.118107] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/ament_index/resource_index/packages/positionconv_package\n'}
+[10.118182] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/cmake/positionconv_packageConfig.cmake\n'}
+[10.118232] (positionconv_package) StdoutLine: {'line': b'-- Up-to-date: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/cmake/positionconv_packageConfig-version.cmake\n'}
+[10.118282] (positionconv_package) StdoutLine: {'line': b'-- Installing: /home/louis/ros2_ws/src/positionconv_package/install/positionconv_package/share/positionconv_package/package.xml\n'}
+[10.119661] (positionconv_package) CommandEnded: {'returncode': 0}
+[10.133022] (positionconv_package) JobEnded: {'identifier': 'positionconv_package', 'rc': 0}
+[10.133648] (-) EventReactorShutdown: {}

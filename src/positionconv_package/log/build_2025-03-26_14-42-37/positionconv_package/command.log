@@ -1,0 +1,4 @@
+Invoking command in '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louis/ros2_ws/src/positionconv_package/build/positionconv_package -- -j12 -l12
+Invoked command in '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louis/ros2_ws/src/positionconv_package/build/positionconv_package -- -j12 -l12
+Invoking command in '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louis/ros2_ws/src/positionconv_package/build/positionconv_package
+Invoked command in '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louis/ros2_ws/src/positionconv_package/build/positionconv_package

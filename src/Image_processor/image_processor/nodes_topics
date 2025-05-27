@@ -1,0 +1,19 @@
+ROS Nodes 
+
+Node: pixel_publisher_gui	
+File: pixel_utils.py	
+Description: Publishes 8x8 pixel data as JSON over a topic /pixel_data
+
+Node: (GUI node)	
+File: gui_app.py	
+Description: Not a ROS node itself, but a UI that triggers processing and indirectly causes publishing
+
+Node: pixel_publisher	
+File: pixel_publisher.py	
+Description: Used when capturing & publishing from terminal/launch, not GUI
+
+ROS Topics
+
+Topic: /pixel_data	
+Message type: std_msgs/msg/String	
+Purpose: Publishes each pixel as a JSON string with label and RGB data (like "A1", {"r": 255, "g": 0, "b": 0}")

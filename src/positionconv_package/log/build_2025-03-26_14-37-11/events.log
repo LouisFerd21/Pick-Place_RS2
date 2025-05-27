@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (positionconv_package) JobQueued: {'identifier': 'positionconv_package', 'dependencies': OrderedDict()}
+[0.000176] (positionconv_package) JobStarted: {'identifier': 'positionconv_package'}
+[0.005918] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'cmake'}
+[0.006961] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'build'}
+[0.007013] (positionconv_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package', '--', '-j12', '-l12'], 'cwd': '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'louis'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1640'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/louis/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-Prestige-15-A10SC:@/tmp/.ICE-unix/1608,unix/louis-Prestige-15-A10SC:/tmp/.ICE-unix/1608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03a8427b_a650_4c70_903e_3fc70bdafee8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KFEA42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.663'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/ros2_ws/src/positionconv_package/build/positionconv_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027810] (positionconv_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099325] (-) TimerEvent: {}
+[0.122450] (positionconv_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.146536] (positionconv_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.148507] (positionconv_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.153301] (positionconv_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.161171] (positionconv_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.171427] (positionconv_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.198414] (positionconv_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.199385] (-) TimerEvent: {}
+[0.199643] (positionconv_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.280799] (positionconv_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299504] (-) TimerEvent: {}
+[0.323313] (positionconv_package) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.345693] (positionconv_package) StdoutLine: {'line': b'-- Found moveit_core: 2.5.8 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[0.385019] (positionconv_package) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.399669] (-) TimerEvent: {}
+[0.426712] (positionconv_package) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.437286] (positionconv_package) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.440186] (positionconv_package) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.465783] (positionconv_package) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.499796] (-) TimerEvent: {}
+[0.529005] (positionconv_package) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.590423] (positionconv_package) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.599905] (-) TimerEvent: {}
+[0.700140] (-) TimerEvent: {}
+[0.800442] (-) TimerEvent: {}
+[0.818633] (positionconv_package) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.822602] (positionconv_package) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.833827] (positionconv_package) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[0.861247] (positionconv_package) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[0.880644] (positionconv_package) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[0.900500] (-) TimerEvent: {}
+[0.909069] (positionconv_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.968082] (positionconv_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.976413] (positionconv_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.976580] (positionconv_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.976657] (positionconv_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.977789] (positionconv_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.979943] (positionconv_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.981159] (positionconv_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.988990] (positionconv_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.989073] (positionconv_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.990203] (positionconv_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.990758] (positionconv_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000567] (-) TimerEvent: {}
+[1.016127] (positionconv_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.022565] (positionconv_package) StdoutLine: {'line': b'-- Build files have been written to: /home/louis/ros2_ws/src/positionconv_package/build/positionconv_package\n'}
+[1.047587] (positionconv_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target position_subscriber\x1b[0m\n'}
+[1.061436] (positionconv_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o\x1b[0m\n'}
+[1.100742] (-) TimerEvent: {}
+[1.201017] (-) TimerEvent: {}
+[1.301808] (-) TimerEvent: {}
+[1.402073] (-) TimerEvent: {}
+[1.502390] (-) TimerEvent: {}
+[1.602700] (-) TimerEvent: {}
+[1.703070] (-) TimerEvent: {}
+[1.803429] (-) TimerEvent: {}
+[1.903749] (-) TimerEvent: {}
+[2.004196] (-) TimerEvent: {}
+[2.104555] (-) TimerEvent: {}
+[2.204835] (-) TimerEvent: {}
+[2.305166] (-) TimerEvent: {}
+[2.405499] (-) TimerEvent: {}
+[2.505827] (-) TimerEvent: {}
+[2.606224] (-) TimerEvent: {}
+[2.706641] (-) TimerEvent: {}
+[2.806963] (-) TimerEvent: {}
+[2.907319] (-) TimerEvent: {}
+[3.007652] (-) TimerEvent: {}
+[3.108009] (-) TimerEvent: {}
+[3.208426] (-) TimerEvent: {}
+[3.308777] (-) TimerEvent: {}
+[3.409128] (-) TimerEvent: {}
+[3.509521] (-) TimerEvent: {}
+[3.609856] (-) TimerEvent: {}
+[3.710236] (-) TimerEvent: {}
+[3.810518] (-) TimerEvent: {}
+[3.910828] (-) TimerEvent: {}
+[4.011176] (-) TimerEvent: {}
+[4.111549] (-) TimerEvent: {}
+[4.211902] (-) TimerEvent: {}
+[4.312330] (-) TimerEvent: {}
+[4.412654] (-) TimerEvent: {}
+[4.512975] (-) TimerEvent: {}
+[4.613417] (-) TimerEvent: {}
+[4.713785] (-) TimerEvent: {}
+[4.802543] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPositionSubscriber::PositionSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.802771] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:12:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.802829] (positionconv_package) StderrLine: {'line': b'   12 |       \x1b[01;31m\x1b[Kmove_group_interface("manipulator")\x1b[m\x1b[K  // Assume the group name is "manipulator"\n'}
+[4.802879] (positionconv_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.802935] (positionconv_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[4.802982] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.803030] (positionconv_package) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[4.803187] (positionconv_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.803248] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [12]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.803308] (positionconv_package) StderrLine: {'line': b'  159 |   MoveGroupInterface(\x1b[01;36m\x1b[KMoveGroupInterface&& other\x1b[m\x1b[K) noexcept;\n'}
+[4.803357] (positionconv_package) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.803404] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.803453] (positionconv_package) StderrLine: {'line': b'  145 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[4.803499] (positionconv_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.803544] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.803598] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.803646] (positionconv_package) StderrLine: {'line': b'  134 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[4.803691] (positionconv_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.803737] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[4.813889] (-) TimerEvent: {}
+[4.814261] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PositionSubscriber::position_callback(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.814361] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:47:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.814425] (positionconv_package) StderrLine: {'line': b'   47 | plan(my_plan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[4.814477] (positionconv_package) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.814525] (positionconv_package) StderrLine: {'line': b'\n'}
+[4.814571] (positionconv_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/louis/ros2_ws/src/positionconv_package/src/position_subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[4.814617] (positionconv_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.814671] (positionconv_package) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[4.814717] (positionconv_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.914033] (-) TimerEvent: {}
+[5.014364] (-) TimerEvent: {}
+[5.114725] (-) TimerEvent: {}
+[5.215066] (-) TimerEvent: {}
+[5.315408] (-) TimerEvent: {}
+[5.415730] (-) TimerEvent: {}
+[5.516079] (-) TimerEvent: {}
+[5.616412] (-) TimerEvent: {}
+[5.716711] (-) TimerEvent: {}
+[5.817079] (-) TimerEvent: {}
+[5.917338] (-) TimerEvent: {}
+[6.017645] (-) TimerEvent: {}
+[6.117978] (-) TimerEvent: {}
+[6.218273] (-) TimerEvent: {}
+[6.318497] (-) TimerEvent: {}
+[6.418813] (-) TimerEvent: {}
+[6.519106] (-) TimerEvent: {}
+[6.619473] (-) TimerEvent: {}
+[6.719761] (-) TimerEvent: {}
+[6.820117] (-) TimerEvent: {}
+[6.920522] (-) TimerEvent: {}
+[7.020825] (-) TimerEvent: {}
+[7.121174] (-) TimerEvent: {}
+[7.221488] (-) TimerEvent: {}
+[7.321839] (-) TimerEvent: {}
+[7.422165] (-) TimerEvent: {}
+[7.522530] (-) TimerEvent: {}
+[7.622815] (-) TimerEvent: {}
+[7.723108] (-) TimerEvent: {}
+[7.823490] (-) TimerEvent: {}
+[7.923795] (-) TimerEvent: {}
+[8.024211] (-) TimerEvent: {}
+[8.068969] (positionconv_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/position_subscriber.dir/build.make:76: CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o] Error 1\n'}
+[8.069288] (positionconv_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/position_subscriber.dir/all] Error 2\n'}
+[8.069713] (positionconv_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.071530] (positionconv_package) CommandEnded: {'returncode': 2}
+[8.080833] (positionconv_package) JobEnded: {'identifier': 'positionconv_package', 'rc': 2}
+[8.091652] (-) EventReactorShutdown: {}

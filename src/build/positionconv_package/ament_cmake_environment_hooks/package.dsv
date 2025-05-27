@@ -1,0 +1,4 @@
+source;share/positionconv_package/local_setup.bash
+source;share/positionconv_package/local_setup.dsv
+source;share/positionconv_package/local_setup.sh
+source;share/positionconv_package/local_setup.zsh
