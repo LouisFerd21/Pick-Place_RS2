@@ -3,7 +3,6 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from PIL import Image
 import os
-import json
 import time
 
 # Define RGB ranges for approximate color matching
@@ -42,24 +41,41 @@ def publish_pixel_data():
         def publish_pixels(self):
             try:
                 img = Image.open(self.image_path)
-                img = img.convert('RGB')  # Ensure it's RGB
+                img = img.convert('RGB')
                 pixels = img.load()
                 width, height = img.size
-
+                
+                # Prepare the complete message
+                message_parts = []
+                
                 for y in range(height):
                     for x in range(width):
+                        # Convert coordinates to chess notation (A-H, 1-8)
+                        chess_x = chr(65 + x)  # A-H
+                        chess_y = str(8 - y)   # 1-8
+                        position = f"{chess_x}{chess_y}"
+                        
                         color = pixels[x, y]
-                        label = get_named_color(color)  # <- Fixed here
+                        color_name = get_named_color(color)
+                        
+                        # Create simple "A8, Red" format message
+                        simple_msg = f"{position}, {color_name}"
                         msg = String()
-                        msg.data = f"{x},{y},{label}"
+                        msg.data = simple_msg
                         self.publisher_.publish(msg)
-                        self.get_logger().info(f"Published: {msg.data}")
-                        time.sleep(0.05)  # small delay to avoid flooding
+                        self.get_logger().info(f"Published: {simple_msg}")
+                        time.sleep(0.05)
+                
+                self.get_logger().info("✅ Finished publishing all pixel data.")
+                
             except Exception as e:
                 self.get_logger().error(f"Error publishing pixels: {e}")
 
-    rclpy.init()
-    node = PixelPublisher()
-    rclpy.spin_once(node, timeout_sec=1)
-    node.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.init()
+        node = PixelPublisher()
+        rclpy.spin_once(node, timeout_sec=1)
+        node.destroy_node()
+        rclpy.shutdown()
+    except Exception as e:
+        print(f"Error in ROS communication: {e}")
