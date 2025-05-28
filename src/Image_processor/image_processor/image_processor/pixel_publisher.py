@@ -9,7 +9,7 @@ import json
 class PixelPublisher(Node):
     def __init__(self):
         super().__init__('pixel_publisher')
-        self.publisher_ = self.create_publisher(String, 'pixel_data', 10)
+        self.publisher_ = self.create_publisher(String, 'positionconv_package', 10)
         self.image_path = self.find_pixel_image()
         if self.image_path:
             self.publish_pixels()
