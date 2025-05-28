@@ -6,6 +6,22 @@ import os
 import json
 import time
 
+# Define RGB ranges for approximate color matching
+COLOR_RANGES = {
+    "Red":     lambda r, g, b: r > 150 and g < 100 and b < 100,
+    "Black":   lambda r, g, b: r < 60 and g < 60 and b < 60,
+    "White":   lambda r, g, b: r > 200 and g > 200 and b > 200,
+    "Skin":    lambda r, g, b: 180 < r < 255 and 140 < g < 220 and 120 < b < 200,
+    "Blue":    lambda r, g, b: b > 150 and r < 100 and g < 100,
+}
+
+def get_named_color(rgb):
+    r, g, b = rgb
+    for name, condition in COLOR_RANGES.items():
+        if condition(r, g, b):
+            return name
+    return "Unknown"
+
 def publish_pixel_data():
     class PixelPublisher(Node):
         def __init__(self):
@@ -25,21 +41,20 @@ def publish_pixel_data():
 
         def publish_pixels(self):
             try:
-                img = Image.open(self.image_path).convert("RGB")
+                img = Image.open(self.image_path)
+                img = img.convert('RGB')  # Ensure it's RGB
                 pixels = img.load()
-                for y in range(8):
-                    for x in range(8):
-                        label = f"{chr(65 + x)}{8 - y}"
+                width, height = img.size
+
+                for y in range(height):
+                    for x in range(width):
                         color = pixels[x, y]
+                        label = get_named_color(color)  # <- Fixed here
                         msg = String()
-                        msg.data = json.dumps({
-                            "label": label,
-                            "rgb": {"r": color[0], "g": color[1], "b": color[2]}
-                        })
+                        msg.data = f"{x},{y},{label}"
                         self.publisher_.publish(msg)
                         self.get_logger().info(f"Published: {msg.data}")
-                        time.sleep(0.1)
-                self.get_logger().info("✅ Finished publishing all pixel data.")
+                        time.sleep(0.05)  # small delay to avoid flooding
             except Exception as e:
                 self.get_logger().error(f"Error publishing pixels: {e}")
 
