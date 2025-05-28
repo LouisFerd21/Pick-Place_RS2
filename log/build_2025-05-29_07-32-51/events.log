@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000610] (-) JobUnselected: {'identifier': 'arduino_magnet'}
+[0.001538] (-) JobUnselected: {'identifier': 'image_processor'}
+[0.001906] (-) JobUnselected: {'identifier': 'pick_place'}
+[0.002067] (-) JobUnselected: {'identifier': 'positionconv_package'}
+[0.002255] (-) JobUnselected: {'identifier': 'positionprov_package'}
+[0.003573] (-) EventReactorShutdown: {}
