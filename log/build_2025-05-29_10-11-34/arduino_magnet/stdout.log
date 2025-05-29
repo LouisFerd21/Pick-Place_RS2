@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/arduino_magnet/arduino_magnet.egg-info
+writing ../../build/arduino_magnet/arduino_magnet.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduino_magnet/arduino_magnet.egg-info/dependency_links.txt
+writing entry points to ../../build/arduino_magnet/arduino_magnet.egg-info/entry_points.txt
+writing requirements to ../../build/arduino_magnet/arduino_magnet.egg-info/requires.txt
+writing top-level names to ../../build/arduino_magnet/arduino_magnet.egg-info/top_level.txt
+writing manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'
+reading manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build
+creating /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib
+creating /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet
+copying arduino_magnet/__init__.py -> /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet
+copying arduino_magnet/arduino_magnet_node.py -> /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet
+running install
+running install_lib
+creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet
+copying /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet/__init__.py -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet
+copying /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet/arduino_magnet_node.py -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet
+byte-compiling /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet/arduino_magnet_node.py to arduino_magnet_node.cpython-310.pyc
+running install_data
+creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index
+creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index/resource_index
+creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index/resource_index/packages
+copying resource/arduino_magnet -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index/resource_index/packages
+copying package.xml -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet
+running install_egg_info
+Copying ../../build/arduino_magnet/arduino_magnet.egg-info to /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arduino_magnet_node script to /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/arduino_magnet
+writing list of installed files to '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log'

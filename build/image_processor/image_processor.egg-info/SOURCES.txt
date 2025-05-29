@@ -10,10 +10,7 @@ setup.py
 ../../../build/image_processor/image_processor.egg-info/top_level.txt
 ../../../build/image_processor/image_processor.egg-info/zip-safe
 image_processor/__init__.py
-image_processor/capture_pixelate.py
 image_processor/gui_app.py
-image_processor/launch.py
-image_processor/pixel_publisher.py
 image_processor/pixel_utils.py
 image_processor/run_gui.py
 resource/image_processor

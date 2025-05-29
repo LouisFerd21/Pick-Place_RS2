@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/louis/Pick-Place_RS2/src/positionconv_package
-# Build directory: /home/louis/Pick-Place_RS2/build/positionconv_package
+# Source directory: /home/easha/git/Pick-Place_RS2-1/src/positionconv_package
+# Build directory: /home/easha/git/Pick-Place_RS2-1/build/positionconv_package
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

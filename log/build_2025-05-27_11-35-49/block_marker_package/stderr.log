@@ -1,1 +1,0 @@
-[0mCMake Error: The source "/home/louis/Pick-Place_RS2/src/block_marker_package/CMakeLists.txt" does not match the source "/home/louis/Pick-Place_RS2/src/block_marker_node/src/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

@@ -1,0 +1,37 @@
+[1.343s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_magnet build --build-base /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build install --record /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log --single-version-externally-managed install_data
+[1.722s] running egg_info
+[1.723s] creating ../../build/arduino_magnet/arduino_magnet.egg-info
+[1.723s] writing ../../build/arduino_magnet/arduino_magnet.egg-info/PKG-INFO
+[1.723s] writing dependency_links to ../../build/arduino_magnet/arduino_magnet.egg-info/dependency_links.txt
+[1.724s] writing entry points to ../../build/arduino_magnet/arduino_magnet.egg-info/entry_points.txt
+[1.724s] writing requirements to ../../build/arduino_magnet/arduino_magnet.egg-info/requires.txt
+[1.724s] writing top-level names to ../../build/arduino_magnet/arduino_magnet.egg-info/top_level.txt
+[1.724s] writing manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'
+[1.728s] reading manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'
+[1.730s] writing manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'
+[1.730s] running build
+[1.730s] running build_py
+[1.730s] creating /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build
+[1.730s] creating /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib
+[1.731s] creating /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet
+[1.731s] copying arduino_magnet/__init__.py -> /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet
+[1.731s] copying arduino_magnet/arduino_magnet_node.py -> /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet
+[1.731s] running install
+[1.731s] running install_lib
+[1.732s] creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet
+[1.732s] copying /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet/__init__.py -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet
+[1.733s] copying /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build/lib/arduino_magnet/arduino_magnet_node.py -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet
+[1.733s] byte-compiling /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet/__init__.py to __init__.cpython-310.pyc
+[1.734s] byte-compiling /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet/arduino_magnet_node.py to arduino_magnet_node.cpython-310.pyc
+[1.735s] running install_data
+[1.735s] creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index
+[1.735s] creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index/resource_index
+[1.735s] creating /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index/resource_index/packages
+[1.735s] copying resource/arduino_magnet -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/ament_index/resource_index/packages
+[1.735s] copying package.xml -> /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet
+[1.735s] running install_egg_info
+[1.738s] Copying ../../build/arduino_magnet/arduino_magnet.egg-info to /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet-0.0.0-py3.10.egg-info
+[1.739s] running install_scripts
+[1.764s] Installing arduino_magnet_node script to /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/arduino_magnet
+[1.765s] writing list of installed files to '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log'
+[1.801s] Invoked command in '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet' returned '0': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_magnet build --build-base /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build install --record /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log --single-version-externally-managed install_data

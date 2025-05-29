@@ -1,2 +1,0 @@
-Invoking command in '/home/louis/Pick-Place_RS2/build/block_marker_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louis/Pick-Place_RS2/src/block_marker_package -DCMAKE_INSTALL_PREFIX=/home/louis/Pick-Place_RS2/install/block_marker_package
-Invoked command in '/home/louis/Pick-Place_RS2/build/block_marker_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louis/Pick-Place_RS2/src/block_marker_package -DCMAKE_INSTALL_PREFIX=/home/louis/Pick-Place_RS2/install/block_marker_package
