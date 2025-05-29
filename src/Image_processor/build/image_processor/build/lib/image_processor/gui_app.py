@@ -7,57 +7,7 @@ import time
 import cv2
 import numpy as np
 from tkinter import filedialog
-
-# Define waypoints (joint angles for the robot to place each pixel)
-waypoints = {
-    'original_pose': {
-        'shoulder_lift_joint': -1.8501, 'elbow_joint': -1.2195, 'wrist_1_joint': -1.5818,
-        'wrist_2_joint': -4.6681, 'wrist_3_joint': 1.4268, 'shoulder_pan_joint': -1.6306
-    },
-    'waypoint_1': {
-        'shoulder_lift_joint': -2.1929, 'elbow_joint': -0.8825, 'wrist_1_joint': -1.5872,
-        'wrist_2_joint': -4.6686, 'wrist_3_joint': 1.4268, 'shoulder_pan_joint': -0.9825
-    },
-    'waypoint_2': {
-        'shoulder_lift_joint': -2.2696, 'elbow_joint': -1.0022, 'wrist_1_joint': -1.3498,
-        'wrist_2_joint': -4.6592, 'wrist_3_joint': 1.4268, 'shoulder_pan_joint': -1.3401
-    },
-    'waypoint_3': {
-        'shoulder_lift_joint': -2.2698, 'elbow_joint': -1.0021, 'wrist_1_joint': -1.3498,
-        'wrist_2_joint': -4.6591, 'wrist_3_joint': 1.4268, 'shoulder_pan_joint': -1.6718
-    },
-    'A1': {
-        'shoulder_lift_joint': -2.9230, 'elbow_joint': -0.4769, 'wrist_1_joint': -1.2894,
-        'wrist_2_joint': -4.6641, 'wrist_3_joint': 1.4278, 'shoulder_pan_joint': -1.1087
-    },
-    'C1': {
-        'shoulder_lift_joint': -2.9126, 'elbow_joint': -0.4580, 'wrist_1_joint': -1.2753,
-        'wrist_2_joint': -4.6591, 'wrist_3_joint': 1.4267, 'shoulder_pan_joint': -1.3868
-    },
-    'E1': {
-        'shoulder_lift_joint': -2.9127, 'elbow_joint': -0.4579, 'wrist_1_joint': -1.2754,
-        'wrist_2_joint': -4.6591, 'wrist_3_joint': 1.4268, 'shoulder_pan_joint': -1.6705
-    }
-}
-
-# Function to convert pixel coordinates to waypoints (joint angles)
-def pixel_to_waypoint(x, y, image_width, image_height):
-    # Scale the pixel coordinates to the range of 0 to 7 (for 8x8 grid)
-    scaled_x = int((x / image_width) * 8)
-    scaled_y = int((y / image_height) * 8)
-    
-    # Map the pixel (scaled_x, scaled_y) to a corresponding waypoint (simplified)
-    # For now, we just pick waypoints from the waypoints dictionary (mapping to an 8x8 grid)
-    waypoint_keys = list(waypoints.keys())
-    index = (scaled_x + scaled_y) % len(waypoint_keys)  # Map pixel to waypoint index
-    waypoint_key = waypoint_keys[index]
-    
-    return waypoints[waypoint_key]
-
-# Function to move robot to waypoint (For demonstration, printing the waypoint)
-def move_robot_to_waypoint(waypoint):
-    # Here you should add code to actually move the robot, for now it prints the waypoint
-    print(f"Moving robot to: {waypoint}")
+from image_processor.pixel_utils import publish_pixel_data
 
 
 def capture_photo():
@@ -126,8 +76,13 @@ def pixelate_and_display(photo_path, photo_dir):
         img_tk = ImageTk.PhotoImage(pixelated_image_pil)
         photo_label.config(image=img_tk)
         photo_label.image = img_tk
+
+        publish_pixel_data()
+
     except Exception as e:
         print(f"Error pixelating photo: {e}")
+
+        
 
 def text_to_pixel_image(text):
 
@@ -154,7 +109,7 @@ def text_to_pixel_image(text):
         # Save actual 16x16 image if needed
         pixel_dir = os.path.expanduser("~/Pictures/Webcam")
         os.makedirs(pixel_dir, exist_ok=True)
-        pixel_path = os.path.join(pixel_dir, "text_pixelated_8x8.png")
+        pixel_path = os.path.join(pixel_dir, "pixelated_8x8.png")
         cv2.imwrite(pixel_path, img)
 
         # Upscale for display
@@ -165,6 +120,8 @@ def text_to_pixel_image(text):
         photo_label.image = img_tk
 
         print(f"✅ Text converted and saved at {pixel_path}")
+
+        publish_pixel_data()
 
 
     except Exception as e:
@@ -181,46 +138,43 @@ def upload_photo():
         display_photo(file_path)
         photo_dir = os.path.dirname(file_path)
         pixelate_and_display(file_path, photo_dir)
+        
+def main():
+    root = tk.Tk()
+    root.title("What do you want UR3 to print?")
+    root.geometry("600x700")
+    root.config(bg="#F0F0F0")  # Light background color
 
-# UI setup
-root = tk.Tk()
-root.title("What do you want UR3 to print?")
-root.geometry("600x700")
-root.config(bg="#F0F0F0")  # Light background color
+    # Buttons with square shape, aligned horizontally, and styled
+    button_style = {
+        'width': 10,
+        'height': 3,
+        'font': ('Arial', 14),
+        'bg': '#4CAF50',
+        'fg': 'white',
+        'relief': 'raised',
+        'bd': 2,
+    }
 
-# Buttons with square shape, aligned horizontally, and styled
-button_style = {
-    'width': 10,
-    'height': 3,
-    'font': ('Arial', 14),
-    'bg': '#4CAF50',
-    'fg': 'white',
-    'relief': 'raised',
-    'bd': 2,
-}
+    button_frame = tk.Frame(root, bg="#F0F0F0")
+    button_frame.pack(pady=20)
 
-# Horizontal frame for the first set of buttons (Capture, Insert, Upload)
-button_frame = tk.Frame(root, bg="#F0F0F0")
-button_frame.pack(pady=20)
+    tk.Button(button_frame, text="Capture Photo", command=capture_photo, **button_style).pack(side="left", padx=10)
+    tk.Button(button_frame, text="Insert Text", command=lambda: text_to_pixel_image(text_entry.get()), **button_style).pack(side="left", padx=10)
+    tk.Button(button_frame, text="Upload", command=upload_photo, **button_style).pack(side="left", padx=10)
 
-tk.Button(button_frame, text="Capture Photo", command=capture_photo, **button_style).pack(side="left", padx=10)
-tk.Button(button_frame, text="Insert Text", command=lambda: text_to_pixel_image(text_entry.get()), **button_style).pack(side="left", padx=10)
-tk.Button(button_frame, text="Upload", command=upload_photo, **button_style).pack(side="left", padx=10)
+    global text_entry
+    text_entry = tk.Entry(root, font=("Arial", 14))
+    text_entry.pack(pady=10)
 
-# Text Entry Box
-text_entry = tk.Entry(root, font=("Arial", 14))
-text_entry.pack(pady=10)
+    text_label = tk.Label(root, text="Type here to insert text", font=('Arial', 12), bg="#F0F0F0")
+    text_label.pack(pady=5)
 
-# Label for "Type here to insert text"
-text_label = tk.Label(root, text="Type here to insert text", font=('Arial', 12), bg="#F0F0F0")
-text_label.pack(pady=5)
+    global photo_label
+    photo_label = Label(root)
+    photo_label.pack(pady=20)
 
-# Label to display photos
-photo_label = Label(root)
-photo_label.pack(pady=20)
+    clear_button = tk.Button(root, text="❌ Clear Image", command=lambda: photo_label.config(image=''), font=('Arial', 12), bg='#FF6347', fg='white', relief='raised', bd=2)
+    clear_button.pack(side="bottom", pady=20)
 
-# Clear Image button with original style at the bottom
-clear_button = tk.Button(root, text="❌ Clear Image", command=lambda: photo_label.config(image=''), font=('Arial', 12), bg='#FF6347', fg='white', relief='raised', bd=2)
-clear_button.pack(side="bottom", pady=20)
-
-root.mainloop()
+    root.mainloop()

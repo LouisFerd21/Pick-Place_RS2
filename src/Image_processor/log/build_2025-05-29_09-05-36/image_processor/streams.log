@@ -1,0 +1,40 @@
+[1.084s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/image_processor build --build-base /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build install --record /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/install.log --single-version-externally-managed install_data
+[1.380s] running egg_info
+[1.381s] creating ../build/image_processor/image_processor.egg-info
+[1.381s] writing ../build/image_processor/image_processor.egg-info/PKG-INFO
+[1.381s] writing dependency_links to ../build/image_processor/image_processor.egg-info/dependency_links.txt
+[1.381s] writing entry points to ../build/image_processor/image_processor.egg-info/entry_points.txt
+[1.381s] writing requirements to ../build/image_processor/image_processor.egg-info/requires.txt
+[1.382s] writing top-level names to ../build/image_processor/image_processor.egg-info/top_level.txt
+[1.382s] writing manifest file '../build/image_processor/image_processor.egg-info/SOURCES.txt'
+[1.383s] reading manifest file '../build/image_processor/image_processor.egg-info/SOURCES.txt'
+[1.385s] writing manifest file '../build/image_processor/image_processor.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.385s] running build_py
+[1.385s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build
+[1.386s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib
+[1.386s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor
+[1.386s] copying image_processor/__init__.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor
+[1.386s] copying image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor
+[1.386s] copying image_processor/run_gui.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor
+[1.386s] copying image_processor/gui_app.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor
+[1.386s] running install
+[1.386s] running install_lib
+[1.388s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor
+[1.388s] copying /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor/__init__.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor
+[1.388s] copying /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor
+[1.388s] copying /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor/run_gui.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor
+[1.388s] copying /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build/lib/image_processor/gui_app.py -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor
+[1.389s] byte-compiling /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor/__init__.py to __init__.cpython-310.pyc
+[1.389s] byte-compiling /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor/pixel_utils.py to pixel_utils.cpython-310.pyc
+[1.390s] byte-compiling /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor/run_gui.py to run_gui.cpython-310.pyc
+[1.390s] byte-compiling /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages/image_processor/gui_app.py to gui_app.cpython-310.pyc
+[1.392s] running install_data
+[1.392s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/share/ament_index
+[1.392s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/share/ament_index/resource_index
+[1.392s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/share/ament_index/resource_index/packages
+[1.393s] copying resource/image_processor -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/share/ament_index/resource_index/packages
+[1.393s] error: can't copy 'image_processor/launch.py': doesn't exist or not a regular file
+[1.393s] copying package.xml -> /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/share/image_processor
+[1.393s] creating /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/share/image_processor/launch
+[1.417s] Invoked command in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor' returned '1': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install/image_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/image_processor build --build-base /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/build install --record /home/easha/git/Pick-Place_RS2-1/src/Image_processor/build/image_processor/install.log --single-version-externally-managed install_data
