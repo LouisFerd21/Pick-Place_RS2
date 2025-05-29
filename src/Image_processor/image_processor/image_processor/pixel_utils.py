@@ -35,8 +35,8 @@ class PixelPublisher(Node):
             img = Image.open(img_path).convert('RGB')
             pixels = img.load()
             
-            # Publish in chess board order (A8 to H1)
-            published_count = 0
+            # Collect all non-white pixels first
+            pixel_data = []
             for y in range(8):
                 for x in range(8):
                     # Convert to chess notation
@@ -50,15 +50,18 @@ class PixelPublisher(Node):
                         self.get_logger().info(f"Skipping white pixel at {position}")
                         continue
                     
-                    # Create and publish only non-white colors
-                    msg = String()
-                    msg.data = f"{position}, {color}"
-                    self.publisher_.publish(msg)
-                    self.get_logger().info(f"Published: {msg.data}")
-                    published_count += 1
-                    time.sleep(0.05)
+                    # Add to our data list
+                    pixel_data.append(f"{position}, {color}")
             
-            self.get_logger().info(f"✅ Finished publishing {published_count} non-white pixels")
+            # Create one message with all data
+            if pixel_data:
+                msg = String()
+                msg.data = ", ".join(pixel_data)  # Join all with commas
+                self.publisher_.publish(msg)
+                self.get_logger().info(f"Published complete message: {msg.data}")
+                self.get_logger().info(f"✅ Published {len(pixel_data)} non-white pixels in one message")
+            else:
+                self.get_logger().info("No non-white pixels found to publish")
             
         except Exception as e:
             self.get_logger().error(f"Publishing error: {str(e)}")
