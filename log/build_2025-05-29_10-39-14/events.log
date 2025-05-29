@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (arduino_magnet) JobQueued: {'identifier': 'arduino_magnet', 'dependencies': OrderedDict()}
+[0.000445] (image_processor) JobQueued: {'identifier': 'image_processor', 'dependencies': OrderedDict()}
+[0.000482] (pick_place) JobQueued: {'identifier': 'pick_place', 'dependencies': OrderedDict()}
+[0.000583] (positionconv_package) JobQueued: {'identifier': 'positionconv_package', 'dependencies': OrderedDict()}
+[0.000605] (positionprov_package) JobQueued: {'identifier': 'positionprov_package', 'dependencies': OrderedDict()}
+[0.000624] (arduino_magnet) JobStarted: {'identifier': 'arduino_magnet'}
+[0.009885] (image_processor) JobStarted: {'identifier': 'image_processor'}
+[0.017085] (pick_place) JobStarted: {'identifier': 'pick_place'}
+[0.022588] (positionconv_package) JobStarted: {'identifier': 'positionconv_package'}
+[0.028380] (positionprov_package) JobStarted: {'identifier': 'positionprov_package'}
+[0.099050] (-) TimerEvent: {}
+[0.199380] (-) TimerEvent: {}
+[0.299714] (-) TimerEvent: {}
+[0.400034] (-) TimerEvent: {}
+[0.500348] (-) TimerEvent: {}
+[0.600715] (-) TimerEvent: {}
+[0.701045] (-) TimerEvent: {}
+[0.726634] (pick_place) JobProgress: {'identifier': 'pick_place', 'progress': 'cmake'}
+[0.727656] (pick_place) JobProgress: {'identifier': 'pick_place', 'progress': 'build'}
+[0.728612] (pick_place) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/easha/git/Pick-Place_RS2-1/build/pick_place', '--', '-j8', '-l8'], 'cwd': '/home/easha/git/Pick-Place_RS2-1/build/pick_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'easha'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/easha'), ('OLDPWD', '/home/easha/git/Pick-Place_RS2-1/src/Image_processor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install:/home/easha/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'easha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'easha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/easha-Latitude-7390-2-in-1:@/tmp/.ICE-unix/1908,unix/easha-Latitude-7390-2-in-1:/tmp/.ICE-unix/1908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/838c5d41_f246_440a_b8bb_fac795ea3785'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7I4062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.347'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/easha/git/Pick-Place_RS2-1/build/pick_place'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:/home/easha/ros2_ws/install/image_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble')]), 'shell': False}
+[0.732593] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'cmake'}
+[0.733505] (positionconv_package) JobProgress: {'identifier': 'positionconv_package', 'progress': 'build'}
+[0.734189] (positionconv_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/easha/git/Pick-Place_RS2-1/build/positionconv_package', '--', '-j8', '-l8'], 'cwd': '/home/easha/git/Pick-Place_RS2-1/build/positionconv_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'easha'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/easha'), ('OLDPWD', '/home/easha/git/Pick-Place_RS2-1/src/Image_processor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install:/home/easha/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'easha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'easha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/easha-Latitude-7390-2-in-1:@/tmp/.ICE-unix/1908,unix/easha-Latitude-7390-2-in-1:/tmp/.ICE-unix/1908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/838c5d41_f246_440a_b8bb_fac795ea3785'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7I4062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.347'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/easha/git/Pick-Place_RS2-1/build/positionconv_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:/home/easha/ros2_ws/install/image_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble')]), 'shell': False}
+[0.736494] (positionprov_package) JobProgress: {'identifier': 'positionprov_package', 'progress': 'cmake'}
+[0.736940] (positionprov_package) JobProgress: {'identifier': 'positionprov_package', 'progress': 'build'}
+[0.737882] (positionprov_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/easha/git/Pick-Place_RS2-1/build/positionprov_package', '--', '-j8', '-l8'], 'cwd': '/home/easha/git/Pick-Place_RS2-1/build/positionprov_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'easha'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/easha'), ('OLDPWD', '/home/easha/git/Pick-Place_RS2-1/src/Image_processor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install:/home/easha/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'easha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'easha'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/easha-Latitude-7390-2-in-1:@/tmp/.ICE-unix/1908,unix/easha-Latitude-7390-2-in-1:/tmp/.ICE-unix/1908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/838c5d41_f246_440a_b8bb_fac795ea3785'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7I4062'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.347'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/easha/git/Pick-Place_RS2-1/build/positionprov_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:/home/easha/ros2_ws/install/image_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble')]), 'shell': False}
+[0.801126] (-) TimerEvent: {}
+[0.809690] (positionconv_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o\x1b[0m\n'}
+[0.813740] (positionprov_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_prov.dir/src/PositionProv.cpp.o\x1b[0m\n'}
+[0.817229] (pick_place) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pick_task.dir/src/pick_task.cpp.o\x1b[0m\n'}
+[0.901234] (-) TimerEvent: {}
+[1.001584] (-) TimerEvent: {}
+[1.102018] (-) TimerEvent: {}
+[1.202324] (-) TimerEvent: {}
+[1.300097] (arduino_magnet) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_magnet', 'build', '--build-base', '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build', 'install', '--record', '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'easha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/easha', 'OLDPWD': '/home/easha/git/Pick-Place_RS2-1/src/Image_processor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/easha/git/Pick-Place_RS2-1/install:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install:/home/easha/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'easha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'easha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/easha-Latitude-7390-2-in-1:@/tmp/.ICE-unix/1908,unix/easha-Latitude-7390-2-in-1:/tmp/.ICE-unix/1908', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/838c5d41_f246_440a_b8bb_fac795ea3785', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7I4062', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.347', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:/home/easha/ros2_ws/install/image_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.303379] (-) TimerEvent: {}
+[1.403690] (-) TimerEvent: {}
+[1.504097] (-) TimerEvent: {}
+[1.515870] (image_processor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/image_processor', 'build', '--build-base', '/home/easha/git/Pick-Place_RS2-1/build/image_processor/build', 'install', '--record', '/home/easha/git/Pick-Place_RS2-1/build/image_processor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'easha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/easha', 'OLDPWD': '/home/easha/git/Pick-Place_RS2-1/src/Image_processor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/easha/git/Pick-Place_RS2-1/install:/home/easha/git/Pick-Place_RS2-1/src/Image_processor/install:/home/easha/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'easha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'easha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/easha-Latitude-7390-2-in-1:@/tmp/.ICE-unix/1908,unix/easha-Latitude-7390-2-in-1:/tmp/.ICE-unix/1908', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/838c5d41_f246_440a_b8bb_fac795ea3785', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7I4062', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.347', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/easha/git/Pick-Place_RS2-1/build/image_processor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/easha/git/Pick-Place_RS2-1/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:/home/easha/ros2_ws/install/image_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.604207] (-) TimerEvent: {}
+[1.704613] (-) TimerEvent: {}
+[1.713101] (arduino_magnet) StdoutLine: {'line': b'running egg_info\n'}
+[1.714387] (arduino_magnet) StdoutLine: {'line': b'writing ../../build/arduino_magnet/arduino_magnet.egg-info/PKG-INFO\n'}
+[1.714717] (arduino_magnet) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_magnet/arduino_magnet.egg-info/dependency_links.txt\n'}
+[1.714937] (arduino_magnet) StdoutLine: {'line': b'writing entry points to ../../build/arduino_magnet/arduino_magnet.egg-info/entry_points.txt\n'}
+[1.716432] (arduino_magnet) StdoutLine: {'line': b'writing requirements to ../../build/arduino_magnet/arduino_magnet.egg-info/requires.txt\n'}
+[1.716669] (arduino_magnet) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_magnet/arduino_magnet.egg-info/top_level.txt\n'}
+[1.719957] (arduino_magnet) StdoutLine: {'line': b"reading manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'\n"}
+[1.721363] (arduino_magnet) StdoutLine: {'line': b"writing manifest file '../../build/arduino_magnet/arduino_magnet.egg-info/SOURCES.txt'\n"}
+[1.722475] (arduino_magnet) StdoutLine: {'line': b'running build\n'}
+[1.722715] (arduino_magnet) StdoutLine: {'line': b'running build_py\n'}
+[1.722867] (arduino_magnet) StdoutLine: {'line': b'running install\n'}
+[1.723082] (arduino_magnet) StdoutLine: {'line': b'running install_lib\n'}
+[1.724582] (arduino_magnet) StdoutLine: {'line': b'running install_data\n'}
+[1.724846] (arduino_magnet) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.727300] (arduino_magnet) StdoutLine: {'line': b"removing '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.728189] (arduino_magnet) StdoutLine: {'line': b'Copying ../../build/arduino_magnet/arduino_magnet.egg-info to /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages/arduino_magnet-0.0.0-py3.10.egg-info\n'}
+[1.729026] (arduino_magnet) StdoutLine: {'line': b'running install_scripts\n'}
+[1.757456] (arduino_magnet) StdoutLine: {'line': b'Installing arduino_magnet_node script to /home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/arduino_magnet\n'}
+[1.757942] (arduino_magnet) StdoutLine: {'line': b"writing list of installed files to '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log'\n"}
+[1.797154] (arduino_magnet) CommandEnded: {'returncode': 0}
+[1.804788] (-) TimerEvent: {}
+[1.822202] (arduino_magnet) JobEnded: {'identifier': 'arduino_magnet', 'rc': 0}
+[1.892436] (image_processor) StdoutLine: {'line': b'running egg_info\n'}
+[1.893486] (image_processor) StdoutLine: {'line': b'writing ../../../build/image_processor/image_processor.egg-info/PKG-INFO\n'}
+[1.893780] (image_processor) StdoutLine: {'line': b'writing dependency_links to ../../../build/image_processor/image_processor.egg-info/dependency_links.txt\n'}
+[1.894001] (image_processor) StdoutLine: {'line': b'writing entry points to ../../../build/image_processor/image_processor.egg-info/entry_points.txt\n'}
+[1.894262] (image_processor) StdoutLine: {'line': b'writing requirements to ../../../build/image_processor/image_processor.egg-info/requires.txt\n'}
+[1.894504] (image_processor) StdoutLine: {'line': b'writing top-level names to ../../../build/image_processor/image_processor.egg-info/top_level.txt\n'}
+[1.897855] (image_processor) StdoutLine: {'line': b"reading manifest file '../../../build/image_processor/image_processor.egg-info/SOURCES.txt'\n"}
+[1.899033] (image_processor) StdoutLine: {'line': b"writing manifest file '../../../build/image_processor/image_processor.egg-info/SOURCES.txt'\n"}
+[1.899337] (image_processor) StdoutLine: {'line': b'running build\n'}
+[1.899441] (image_processor) StdoutLine: {'line': b'running build_py\n'}
+[1.900792] (image_processor) StdoutLine: {'line': b'copying image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/build/image_processor/build/lib/image_processor\n'}
+[1.901260] (image_processor) StdoutLine: {'line': b'running install\n'}
+[1.901700] (image_processor) StdoutLine: {'line': b'running install_lib\n'}
+[1.902731] (image_processor) StdoutLine: {'line': b'copying /home/easha/git/Pick-Place_RS2-1/build/image_processor/build/lib/image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages/image_processor\n'}
+[1.903537] (image_processor) StdoutLine: {'line': b'byte-compiling /home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages/image_processor/pixel_utils.py to pixel_utils.cpython-310.pyc\n'}
+[1.904747] (image_processor) StdoutLine: {'line': b'running install_data\n'}
+[1.904925] (-) TimerEvent: {}
+[1.905186] (image_processor) StderrLine: {'line': b"error: can't copy 'image_processor/launch.py': doesn't exist or not a regular file\n"}
+[1.948416] (image_processor) CommandEnded: {'returncode': 1}
+[1.949118] (image_processor) JobEnded: {'identifier': 'image_processor', 'rc': 1}
+[2.005054] (-) TimerEvent: {}
+[2.105458] (-) TimerEvent: {}
+[2.205875] (-) TimerEvent: {}
+[2.306325] (-) TimerEvent: {}
+[2.406738] (-) TimerEvent: {}
+[2.507091] (-) TimerEvent: {}
+[2.607530] (-) TimerEvent: {}
+[2.707940] (-) TimerEvent: {}
+[2.808421] (-) TimerEvent: {}
+[2.909001] (-) TimerEvent: {}
+[3.009480] (-) TimerEvent: {}
+[3.109939] (-) TimerEvent: {}
+[3.210405] (-) TimerEvent: {}
+[3.310891] (-) TimerEvent: {}
+[3.411324] (-) TimerEvent: {}
+[3.511846] (-) TimerEvent: {}
+[3.612872] (-) TimerEvent: {}
+[3.713376] (-) TimerEvent: {}
+[3.813768] (-) TimerEvent: {}
+[3.914324] (-) TimerEvent: {}
+[4.015297] (-) TimerEvent: {}
+[4.115747] (-) TimerEvent: {}
+[4.216166] (-) TimerEvent: {}
+[4.316613] (-) TimerEvent: {}
+[4.417043] (-) TimerEvent: {}
+[4.517542] (-) TimerEvent: {}
+[4.617908] (-) TimerEvent: {}
+[4.718379] (-) TimerEvent: {}
+[4.818731] (-) TimerEvent: {}
+[4.919105] (-) TimerEvent: {}
+[5.019538] (-) TimerEvent: {}
+[5.119976] (-) TimerEvent: {}
+[5.220427] (-) TimerEvent: {}
+[5.320879] (-) TimerEvent: {}
+[5.421345] (-) TimerEvent: {}
+[5.521832] (-) TimerEvent: {}
+[5.622277] (-) TimerEvent: {}
+[5.722731] (-) TimerEvent: {}
+[5.823151] (-) TimerEvent: {}
+[5.923562] (-) TimerEvent: {}
+[6.024000] (-) TimerEvent: {}
+[6.124470] (-) TimerEvent: {}
+[6.224914] (-) TimerEvent: {}
+[6.325378] (-) TimerEvent: {}
+[6.425816] (-) TimerEvent: {}
+[6.526255] (-) TimerEvent: {}
+[6.626653] (-) TimerEvent: {}
+[6.727072] (-) TimerEvent: {}
+[6.827495] (-) TimerEvent: {}
+[6.928034] (-) TimerEvent: {}
+[7.028469] (-) TimerEvent: {}
+[7.128898] (-) TimerEvent: {}
+[7.229316] (-) TimerEvent: {}
+[7.329758] (-) TimerEvent: {}
+[7.430200] (-) TimerEvent: {}
+[7.530634] (-) TimerEvent: {}
+[7.631095] (-) TimerEvent: {}
+[7.731511] (-) TimerEvent: {}
+[7.831951] (-) TimerEvent: {}
+[7.932370] (-) TimerEvent: {}
+[8.032926] (-) TimerEvent: {}
+[8.133265] (-) TimerEvent: {}
+[8.233628] (-) TimerEvent: {}
+[8.333985] (-) TimerEvent: {}
+[8.434396] (-) TimerEvent: {}
+[8.534758] (-) TimerEvent: {}
+[8.635134] (-) TimerEvent: {}
+[8.735547] (-) TimerEvent: {}
+[8.808449] (positionprov_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_prov\x1b[0m\n'}
+[8.835669] (-) TimerEvent: {}
+[8.936119] (-) TimerEvent: {}
+[9.036552] (-) TimerEvent: {}
+[9.137058] (-) TimerEvent: {}
+[9.198553] (positionprov_package) StdoutLine: {'line': b'[100%] Built target position_prov\n'}
+[9.217274] (positionprov_package) JobEnded: {'identifier': 'positionprov_package', 'rc': 'SIGINT'}
+[9.237138] (-) TimerEvent: {}
+[9.337539] (-) TimerEvent: {}
+[9.437959] (-) TimerEvent: {}
+[9.538422] (-) TimerEvent: {}
+[9.638756] (-) TimerEvent: {}
+[9.739102] (-) TimerEvent: {}
+[9.839439] (-) TimerEvent: {}
+[9.939774] (-) TimerEvent: {}
+[10.040113] (-) TimerEvent: {}
+[10.140438] (-) TimerEvent: {}
+[10.240774] (-) TimerEvent: {}
+[10.341133] (-) TimerEvent: {}
+[10.441441] (-) TimerEvent: {}
+[10.541796] (-) TimerEvent: {}
+[10.642123] (-) TimerEvent: {}
+[10.742530] (-) TimerEvent: {}
+[10.842899] (-) TimerEvent: {}
+[10.943351] (-) TimerEvent: {}
+[11.043672] (-) TimerEvent: {}
+[11.144105] (-) TimerEvent: {}
+[11.244467] (-) TimerEvent: {}
+[11.344829] (-) TimerEvent: {}
+[11.445161] (-) TimerEvent: {}
+[11.545522] (-) TimerEvent: {}
+[11.645892] (-) TimerEvent: {}
+[11.746247] (-) TimerEvent: {}
+[11.846595] (-) TimerEvent: {}
+[11.947123] (-) TimerEvent: {}
+[12.047485] (-) TimerEvent: {}
+[12.150144] (-) TimerEvent: {}
+[12.250568] (-) TimerEvent: {}
+[12.350985] (-) TimerEvent: {}
+[12.451440] (-) TimerEvent: {}
+[12.551811] (-) TimerEvent: {}
+[12.652167] (-) TimerEvent: {}
+[12.752535] (-) TimerEvent: {}
+[12.852910] (-) TimerEvent: {}
+[12.953266] (-) TimerEvent: {}
+[13.053751] (-) TimerEvent: {}
+[13.154186] (-) TimerEvent: {}
+[13.254547] (-) TimerEvent: {}
+[13.355051] (-) TimerEvent: {}
+[13.455406] (-) TimerEvent: {}
+[13.555745] (-) TimerEvent: {}
+[13.656114] (-) TimerEvent: {}
+[13.693793] (pick_place) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pick_task\x1b[0m\n'}
+[13.756223] (-) TimerEvent: {}
+[13.856599] (-) TimerEvent: {}
+[13.956951] (-) TimerEvent: {}
+[14.057294] (-) TimerEvent: {}
+[14.157644] (-) TimerEvent: {}
+[14.258008] (-) TimerEvent: {}
+[14.358376] (-) TimerEvent: {}
+[14.374344] (pick_place) StdoutLine: {'line': b'[100%] Built target pick_task\n'}
+[14.391952] (pick_place) JobEnded: {'identifier': 'pick_place', 'rc': 'SIGINT'}
+[14.458518] (-) TimerEvent: {}
+[14.558861] (-) TimerEvent: {}
+[14.659234] (-) TimerEvent: {}
+[14.759584] (-) TimerEvent: {}
+[14.859950] (-) TimerEvent: {}
+[14.960322] (-) TimerEvent: {}
+[15.060620] (-) TimerEvent: {}
+[15.160955] (-) TimerEvent: {}
+[15.261305] (-) TimerEvent: {}
+[15.361644] (-) TimerEvent: {}
+[15.461996] (-) TimerEvent: {}
+[15.562302] (-) TimerEvent: {}
+[15.662638] (-) TimerEvent: {}
+[15.762958] (-) TimerEvent: {}
+[15.863279] (-) TimerEvent: {}
+[15.963623] (-) TimerEvent: {}
+[16.063972] (-) TimerEvent: {}
+[16.164296] (-) TimerEvent: {}
+[16.264671] (-) TimerEvent: {}
+[16.365158] (-) TimerEvent: {}
+[16.465608] (-) TimerEvent: {}
+[16.565913] (-) TimerEvent: {}
+[16.666157] (-) TimerEvent: {}
+[16.766461] (-) TimerEvent: {}
+[16.866763] (-) TimerEvent: {}
+[16.967088] (-) TimerEvent: {}
+[17.067372] (-) TimerEvent: {}
+[17.167672] (-) TimerEvent: {}
+[17.267977] (-) TimerEvent: {}
+[17.368267] (-) TimerEvent: {}
+[17.468583] (-) TimerEvent: {}
+[17.568883] (-) TimerEvent: {}
+[17.669183] (-) TimerEvent: {}
+[17.769482] (-) TimerEvent: {}
+[17.869787] (-) TimerEvent: {}
+[17.970094] (-) TimerEvent: {}
+[18.070392] (-) TimerEvent: {}
+[18.170701] (-) TimerEvent: {}
+[18.271003] (-) TimerEvent: {}
+[18.371287] (-) TimerEvent: {}
+[18.471588] (-) TimerEvent: {}
+[18.571892] (-) TimerEvent: {}
+[18.672200] (-) TimerEvent: {}
+[18.772522] (-) TimerEvent: {}
+[18.872823] (-) TimerEvent: {}
+[18.973132] (-) TimerEvent: {}
+[19.073437] (-) TimerEvent: {}
+[19.173742] (-) TimerEvent: {}
+[19.274055] (-) TimerEvent: {}
+[19.374379] (-) TimerEvent: {}
+[19.474680] (-) TimerEvent: {}
+[19.574985] (-) TimerEvent: {}
+[19.675273] (-) TimerEvent: {}
+[19.775581] (-) TimerEvent: {}
+[19.875887] (-) TimerEvent: {}
+[19.976195] (-) TimerEvent: {}
+[20.076530] (-) TimerEvent: {}
+[20.176962] (-) TimerEvent: {}
+[20.277379] (-) TimerEvent: {}
+[20.377870] (-) TimerEvent: {}
+[20.478251] (-) TimerEvent: {}
+[20.578567] (-) TimerEvent: {}
+[20.678970] (-) TimerEvent: {}
+[20.779276] (-) TimerEvent: {}
+[20.879651] (-) TimerEvent: {}
+[20.980048] (-) TimerEvent: {}
+[21.080386] (-) TimerEvent: {}
+[21.180717] (-) TimerEvent: {}
+[21.185021] (positionconv_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_subscriber\x1b[0m\n'}
+[21.280929] (-) TimerEvent: {}
+[21.381248] (-) TimerEvent: {}
+[21.481586] (-) TimerEvent: {}
+[21.581931] (-) TimerEvent: {}
+[21.682253] (-) TimerEvent: {}
+[21.782577] (-) TimerEvent: {}
+[21.882877] (-) TimerEvent: {}
+[21.983157] (-) TimerEvent: {}
+[22.083475] (-) TimerEvent: {}
+[22.183869] (-) TimerEvent: {}
+[22.231687] (positionconv_package) StdoutLine: {'line': b'[100%] Built target position_subscriber\n'}
+[22.247059] (positionconv_package) JobEnded: {'identifier': 'positionconv_package', 'rc': 'SIGINT'}
+[22.248614] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[0.715s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/pick_place': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/pick_place -- -j8 -l8
+[0.800s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_task.dir/src/pick_task.cpp.o[0m
+[13.677s] [100%] [32m[1mLinking CXX executable pick_task[0m
+[14.357s] [100%] Built target pick_task

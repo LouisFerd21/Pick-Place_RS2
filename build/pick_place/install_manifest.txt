@@ -1,0 +1,16 @@
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/lib/pick_place/pick_task
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/package_run_dependencies/pick_place
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/parent_prefix_path/pick_place
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/ament_prefix_path.sh
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/ament_prefix_path.dsv
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/path.sh
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/path.dsv
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.bash
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.sh
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.zsh
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.dsv
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/package.dsv
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/packages/pick_place
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/cmake/pick_placeConfig.cmake
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/cmake/pick_placeConfig-version.cmake
+/home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/package.xml

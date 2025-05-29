@@ -1,0 +1,17 @@
+running egg_info
+writing ../../../build/image_processor/image_processor.egg-info/PKG-INFO
+writing dependency_links to ../../../build/image_processor/image_processor.egg-info/dependency_links.txt
+writing entry points to ../../../build/image_processor/image_processor.egg-info/entry_points.txt
+writing requirements to ../../../build/image_processor/image_processor.egg-info/requires.txt
+writing top-level names to ../../../build/image_processor/image_processor.egg-info/top_level.txt
+reading manifest file '../../../build/image_processor/image_processor.egg-info/SOURCES.txt'
+writing manifest file '../../../build/image_processor/image_processor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/build/image_processor/build/lib/image_processor
+running install
+running install_lib
+copying /home/easha/git/Pick-Place_RS2-1/build/image_processor/build/lib/image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages/image_processor
+byte-compiling /home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages/image_processor/pixel_utils.py to pixel_utils.cpython-310.pyc
+running install_data
+error: can't copy 'image_processor/launch.py': doesn't exist or not a regular file

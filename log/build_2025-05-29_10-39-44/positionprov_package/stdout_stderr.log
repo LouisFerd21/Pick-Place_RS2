@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target position_prov[0m
+[100%] Built target position_prov
+-- Install configuration: ""
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/lib/positionprov_package/position_prov
+-- Set runtime path of "/home/easha/git/Pick-Place_RS2-1/install/positionprov_package/lib/positionprov_package/position_prov" to ""
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/ament_index/resource_index/package_run_dependencies/positionprov_package
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/ament_index/resource_index/parent_prefix_path/positionprov_package
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/environment/ament_prefix_path.sh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/environment/ament_prefix_path.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/environment/path.sh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/environment/path.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/local_setup.bash
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/local_setup.sh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/local_setup.zsh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/local_setup.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/package.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/ament_index/resource_index/packages/positionprov_package
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/cmake/positionprov_packageConfig.cmake
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/cmake/positionprov_packageConfig-version.cmake
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/positionprov_package/share/positionprov_package/package.xml

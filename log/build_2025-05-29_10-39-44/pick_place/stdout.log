@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_task[0m
+[100%] Built target pick_task
+-- Install configuration: ""
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/lib/pick_place/pick_task
+-- Set runtime path of "/home/easha/git/Pick-Place_RS2-1/install/pick_place/lib/pick_place/pick_task" to ""
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/package_run_dependencies/pick_place
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/parent_prefix_path/pick_place
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/ament_prefix_path.sh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/ament_prefix_path.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/path.sh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/path.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.bash
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.sh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.zsh
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/package.dsv
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/packages/pick_place
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/cmake/pick_placeConfig.cmake
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/cmake/pick_placeConfig-version.cmake
+-- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/package.xml

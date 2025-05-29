@@ -1,0 +1,4 @@
+[0.713s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/positionconv_package': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/positionconv_package -- -j8 -l8
+[0.787s] [ 50%] [32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o[0m
+[21.162s] [100%] [32m[1mLinking CXX executable position_subscriber[0m
+[22.209s] [100%] Built target position_subscriber

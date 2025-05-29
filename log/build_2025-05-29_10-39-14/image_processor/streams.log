@@ -1,0 +1,19 @@
+[1.508s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_processor build --build-base /home/easha/git/Pick-Place_RS2-1/build/image_processor/build install --record /home/easha/git/Pick-Place_RS2-1/build/image_processor/install.log --single-version-externally-managed install_data
+[1.883s] running egg_info
+[1.884s] writing ../../../build/image_processor/image_processor.egg-info/PKG-INFO
+[1.884s] writing dependency_links to ../../../build/image_processor/image_processor.egg-info/dependency_links.txt
+[1.884s] writing entry points to ../../../build/image_processor/image_processor.egg-info/entry_points.txt
+[1.884s] writing requirements to ../../../build/image_processor/image_processor.egg-info/requires.txt
+[1.885s] writing top-level names to ../../../build/image_processor/image_processor.egg-info/top_level.txt
+[1.888s] reading manifest file '../../../build/image_processor/image_processor.egg-info/SOURCES.txt'
+[1.889s] writing manifest file '../../../build/image_processor/image_processor.egg-info/SOURCES.txt'
+[1.889s] running build
+[1.890s] running build_py
+[1.891s] copying image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/build/image_processor/build/lib/image_processor
+[1.891s] running install
+[1.892s] running install_lib
+[1.893s] copying /home/easha/git/Pick-Place_RS2-1/build/image_processor/build/lib/image_processor/pixel_utils.py -> /home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages/image_processor
+[1.894s] byte-compiling /home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages/image_processor/pixel_utils.py to pixel_utils.cpython-310.pyc
+[1.895s] running install_data
+[1.895s] error: can't copy 'image_processor/launch.py': doesn't exist or not a regular file
+[1.939s] Invoked command in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor' returned '1': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_processor build --build-base /home/easha/git/Pick-Place_RS2-1/build/image_processor/build install --record /home/easha/git/Pick-Place_RS2-1/build/image_processor/install.log --single-version-externally-managed install_data

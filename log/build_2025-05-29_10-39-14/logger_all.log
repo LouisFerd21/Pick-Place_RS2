@@ -1,0 +1,263 @@
+[0.192s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.192s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73283831a590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7328384d3d00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7328384d3d00>>, mixin_verb=('build',))
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.379s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/easha/git/Pick-Place_RS2-1'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/build) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/build) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/build) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/image_processor) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Image_processor/image_processor' with type 'ros.ament_python' and name 'image_processor'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/install) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/install) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/install) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/log) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/log) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Image_processor/log) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_magnet) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_magnet' with type 'ros.ament_python' and name 'arduino_magnet'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_place) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pick_place' with type 'ros.ament_cmake' and name 'pick_place'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionconv_package) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/positionconv_package' with type 'ros.ament_cmake' and name 'positionconv_package'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/positionprov_package) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/positionprov_package' with type 'ros.ament_cmake' and name 'positionprov_package'
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.444s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/easha/ros2_ws/install/image_processor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/easha/git/Pick-Place_RS2-1/install
+[0.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/easha/git/Pick-Place_RS2-1/src/Image_processor/install
+[0.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/easha/ros2_ws/install
+[0.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'arduino_magnet' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_magnet' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet', 'merge_install': False, 'path': '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'image_processor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'image_processor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/easha/git/Pick-Place_RS2-1/build/image_processor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/easha/git/Pick-Place_RS2-1/install/image_processor', 'merge_install': False, 'path': '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'pick_place' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'pick_place' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/easha/git/Pick-Place_RS2-1/build/pick_place', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/easha/git/Pick-Place_RS2-1/install/pick_place', 'merge_install': False, 'path': '/home/easha/git/Pick-Place_RS2-1/src/pick_place', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionconv_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] DEBUG:colcon.colcon_core.verb:Building package 'positionconv_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/easha/git/Pick-Place_RS2-1/build/positionconv_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/easha/git/Pick-Place_RS2-1/install/positionconv_package', 'merge_install': False, 'path': '/home/easha/git/Pick-Place_RS2-1/src/positionconv_package', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'positionprov_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] DEBUG:colcon.colcon_core.verb:Building package 'positionprov_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/easha/git/Pick-Place_RS2-1/build/positionprov_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/easha/git/Pick-Place_RS2-1/install/positionprov_package', 'merge_install': False, 'path': '/home/easha/git/Pick-Place_RS2-1/src/positionprov_package', 'symlink_install': False, 'test_result_base': None}
+[0.520s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.521s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet' with build type 'ament_python'
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_magnet', 'ament_prefix_path')
+[0.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/hook/ament_prefix_path.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/hook/ament_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/hook/ament_prefix_path.sh'
+[0.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor' with build type 'ament_python'
+[0.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processor', 'ament_prefix_path')
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/easha/git/Pick-Place_RS2-1/install/image_processor/share/image_processor/hook/ament_prefix_path.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/easha/git/Pick-Place_RS2-1/install/image_processor/share/image_processor/hook/ament_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/easha/git/Pick-Place_RS2-1/install/image_processor/share/image_processor/hook/ament_prefix_path.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/easha/git/Pick-Place_RS2-1/src/pick_place' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/easha/git/Pick-Place_RS2-1/src/pick_place'
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/easha/git/Pick-Place_RS2-1/src/positionconv_package' with build type 'ament_cmake'
+[0.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/easha/git/Pick-Place_RS2-1/src/positionconv_package'
+[0.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/easha/git/Pick-Place_RS2-1/src/positionprov_package' with build type 'ament_cmake'
+[0.550s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/easha/git/Pick-Place_RS2-1/src/positionprov_package'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet'
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.241s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor'
+[1.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/pick_place': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/pick_place -- -j8 -l8
+[1.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/positionconv_package': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/positionconv_package -- -j8 -l8
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/positionprov_package': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/positionprov_package -- -j8 -l8
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_magnet build --build-base /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build install --record /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log --single-version-externally-managed install_data
+[2.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_processor build --build-base /home/easha/git/Pick-Place_RS2-1/build/image_processor/build install --record /home/easha/git/Pick-Place_RS2-1/build/image_processor/install.log --single-version-externally-managed install_data
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/easha/git/Pick-Place_RS2-1/src/arduino_magnet' returned '0': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_magnet build --build-base /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/build install --record /home/easha/git/Pick-Place_RS2-1/build/arduino_magnet/install.log --single-version-externally-managed install_data
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet' for CMake module files
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet' for CMake config files
+[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/bin'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/pkgconfig/arduino_magnet.pc'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/lib/python3.10/site-packages'
+[2.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_magnet', 'pythonpath')
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/hook/pythonpath.ps1'
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/hook/pythonpath.dsv'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/hook/pythonpath.sh'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/bin'
+[2.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_magnet)
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/package.ps1'
+[2.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/package.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/package.sh'
+[2.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/package.bash'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/arduino_magnet/package.zsh'
+[2.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet/share/colcon-core/packages/arduino_magnet)
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/easha/git/Pick-Place_RS2-1/src/Image_processor/image_processor' returned '1': PYTHONPATH=/home/easha/git/Pick-Place_RS2-1/build/image_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/easha/git/Pick-Place_RS2-1/install/image_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_processor build --build-base /home/easha/git/Pick-Place_RS2-1/build/image_processor/build install --record /home/easha/git/Pick-Place_RS2-1/build/image_processor/install.log --single-version-externally-managed install_data
+[22.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[22.769s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.779s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.779s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.779s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.801s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/easha/git/Pick-Place_RS2-1/install/local_setup.ps1'
+[22.803s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/easha/git/Pick-Place_RS2-1/install/_local_setup_util_ps1.py'
+[22.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/easha/git/Pick-Place_RS2-1/install/setup.ps1'
+[22.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/easha/git/Pick-Place_RS2-1/install/local_setup.sh'
+[22.807s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/easha/git/Pick-Place_RS2-1/install/_local_setup_util_sh.py'
+[22.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/easha/git/Pick-Place_RS2-1/install/setup.sh'
+[22.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/easha/git/Pick-Place_RS2-1/install/local_setup.bash'
+[22.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/easha/git/Pick-Place_RS2-1/install/setup.bash'
+[22.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/easha/git/Pick-Place_RS2-1/install/local_setup.zsh'
+[22.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/easha/git/Pick-Place_RS2-1/install/setup.zsh'

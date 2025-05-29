@@ -1,0 +1,22 @@
+[0.684s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/pick_place': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/pick_place -- -j8 -l8
+[0.784s] [100%] Built target pick_task
+[0.800s] Invoked command in '/home/easha/git/Pick-Place_RS2-1/build/pick_place' returned '0': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/pick_place -- -j8 -l8
+[0.816s] Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/pick_place': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --install /home/easha/git/Pick-Place_RS2-1/build/pick_place
+[0.827s] -- Install configuration: ""
+[0.827s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/lib/pick_place/pick_task
+[0.828s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/package_run_dependencies/pick_place
+[0.828s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/parent_prefix_path/pick_place
+[0.828s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/ament_prefix_path.sh
+[0.828s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/ament_prefix_path.dsv
+[0.829s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/path.sh
+[0.829s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/environment/path.dsv
+[0.829s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.bash
+[0.829s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.sh
+[0.829s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.zsh
+[0.829s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/local_setup.dsv
+[0.830s] -- Installing: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/package.dsv
+[0.830s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/ament_index/resource_index/packages/pick_place
+[0.830s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/cmake/pick_placeConfig.cmake
+[0.830s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/cmake/pick_placeConfig-version.cmake
+[0.830s] -- Up-to-date: /home/easha/git/Pick-Place_RS2-1/install/pick_place/share/pick_place/package.xml
+[0.834s] Invoked command in '/home/easha/git/Pick-Place_RS2-1/build/pick_place' returned '0': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --install /home/easha/git/Pick-Place_RS2-1/build/pick_place

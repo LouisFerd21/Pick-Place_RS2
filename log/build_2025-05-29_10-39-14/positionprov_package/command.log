@@ -1,0 +1,1 @@
+Invoking command in '/home/easha/git/Pick-Place_RS2-1/build/positionprov_package': CMAKE_PREFIX_PATH=/home/easha/git/Pick-Place_RS2-1/install/arduino_magnet:/home/easha/ros2_ws/install/image_processor:/opt/ros/humble /usr/bin/cmake --build /home/easha/git/Pick-Place_RS2-1/build/positionprov_package -- -j8 -l8

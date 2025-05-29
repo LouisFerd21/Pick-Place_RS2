@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/position_prov.dir/src/PositionProv.cpp.o[0m
+[100%] [32m[1mLinking CXX executable position_prov[0m
+[100%] Built target position_prov
