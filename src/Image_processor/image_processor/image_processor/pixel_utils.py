@@ -7,10 +7,10 @@ import time
 
 # Strict color definitions with priority ordering (removed White)
 COLOR_DEFINITIONS = [
-    ("Black", lambda r, g, b: max(r, g, b) < 60),
-    ("Red", lambda r, g, b: r > max(g, b) + 50 and r > 150),
-    ("Blue", lambda r, g, b: b > max(r, g) + 50 and b > 150),
-    ("Skin", lambda r, g, b: (180 < r < 220 and 140 < g < 180 and 120 < b < 160)),
+    ("black", lambda r, g, b: max(r, g, b) < 60),
+    ("red", lambda r, g, b: r > max(g, b) + 50 and r > 150),
+    ("blue", lambda r, g, b: b > max(r, g) + 50 and b > 150),
+    ("skin", lambda r, g, b: (180 < r < 220 and 140 < g < 180 and 120 < b < 160)),
 ]
 
 def get_color_name(rgb):
@@ -23,7 +23,7 @@ def get_color_name(rgb):
 class PixelPublisher(Node):
     def __init__(self):
         super().__init__('publish_pixel_data')
-        self.publisher_ = self.create_publisher(String, 'positionconv_package', 10)
+        self.publisher_ = self.create_publisher(String, 'target_waypoints', 10)
 
     def publish_chess_pixels(self):
         try:
@@ -46,8 +46,7 @@ class PixelPublisher(Node):
                     
                     # Get color - skip if it's white/unmatched
                     color = get_color_name(pixels[x, y])
-                    if color is None:  # Skip white pixels
-                        self.get_logger().info(f"Skipping white pixel at {position}")
+                    if color is None:  # Skip white pixels silently
                         continue
                     
                     # Add to our data list
